@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strike Snake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>STRIKE SNAKE</h1>
+        <div class="score-container">
+            <span>Puntuación: <span id="score">0</span></span>
+            <span class="highscore">Récord: <span id="highscore">0</span></span>
+        </div>
+        <canvas id="gameCanvas" width="600" height="600"></canvas>
+        <div class="controls">
+            Usa las flechas ← ↑ → ↓ o WASD<br>
+            <button onclick="startGame()">Nueva Partida</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
